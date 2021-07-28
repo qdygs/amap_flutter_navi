@@ -1,0 +1,39 @@
+PODS:
+  - amap_flutter_navi (0.0.1):
+    - AMapNavi
+    - Flutter
+  - AMapFoundation (1.6.5.1)
+  - AMapNavi (7.8.0):
+    - AMapFoundation (~> 1.6.5)
+  - Flutter (1.0.0)
+  - "permission_handler (5.0.0+hotfix.9)":
+    - Flutter
+
+DEPENDENCIES:
+  - amap_flutter_navi (from `.symlinks/plugins/amap_flutter_navi/ios`)
+  - Flutter (from `Flutter`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AMapFoundation
+    - AMapNavi
+
+EXTERNAL SOURCES:
+  amap_flutter_navi:
+    :path: ".symlinks/plugins/amap_flutter_navi/ios"
+  Flutter:
+    :path: Flutter
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+
+SPEC CHECKSUMS:
+  amap_flutter_navi: a4a6c18806addb7807c171337d09796018a98183
+  AMapFoundation: b67560a6f21aab81c8c12f84616b55a3833b6253
+  AMapNavi: ce659052825437090becd14c3bbd5a71b88fcafe
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  permission_handler: 27c3d16194d3e074a9a1a14943071f3907c29f27
+
+PODFILE CHECKSUM: f32fb4e7c14f8b3ca19a369d7be425dd9241af27
+
+COCOAPODS: 1.8.0
